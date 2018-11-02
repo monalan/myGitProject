@@ -1,0 +1,4 @@
+http://remotees.daosh.net/Service1.svc
+
+
+http://remotees.daosh.net/NewTimeService.svc
