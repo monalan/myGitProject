@@ -1,0 +1,33 @@
+调用webAPI
+ex:
+
+  public string uploads(string postparams, string uri, string deviceNo)
+        {
+            try
+            {
+                using (var client = new HttpClient())
+                {
+                    client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                    //设备编号
+                    if (!string.IsNullOrEmpty(deviceNo))
+                    {
+                        var utf8 = Encoding.UTF8.GetBytes(deviceNo);
+                        var no = Convert.ToBase64String(utf8);
+                        client.DefaultRequestHeaders.Add("Authorization", "Basic " + no);
+                    }
+
+                    var content = new StringContent(postparams, Encoding.UTF8);
+                    content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
+                    var tmpResult = client.PostAsync(uri, content).Result;
+                    tmpResult.EnsureSuccessStatusCode();
+                    string result = tmpResult.Content.ReadAsStringAsync().Result;
+                    return result;
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }

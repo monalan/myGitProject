@@ -1,0 +1,22 @@
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.IDAL\bin\Debug\Hello.IDAL.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.IDAL\bin\Debug\Hello.IDAL.pdb
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.IDAL\bin\Debug\Component.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.IDAL\bin\Debug\Hello.Model.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.IDAL\bin\Debug\log4net.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.IDAL\bin\Debug\Component.pdb
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.IDAL\bin\Debug\Hello.Model.pdb
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.IDAL\bin\Debug\log4net.xml
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.IDAL\obj\Debug\Hello.IDAL.csprojResolveAssemblyReference.cache
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.IDAL\obj\Debug\Hello.IDAL.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.IDAL\obj\Debug\Hello.IDAL.pdb
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.IDAL\bin\Debug\Hello.IDAL.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.IDAL\bin\Debug\Hello.IDAL.pdb
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.IDAL\bin\Debug\Component.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.IDAL\bin\Debug\Hello.Model.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.IDAL\bin\Debug\log4net.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.IDAL\bin\Debug\Component.pdb
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.IDAL\bin\Debug\Hello.Model.pdb
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.IDAL\bin\Debug\log4net.xml
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.IDAL\obj\Debug\Hello.IDAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.IDAL\obj\Debug\Hello.IDAL.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.IDAL\obj\Debug\Hello.IDAL.pdb

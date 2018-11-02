@@ -1,0 +1,9 @@
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.Model\bin\Debug\Hello.Model.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.Model\bin\Debug\Hello.Model.pdb
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.Model\obj\Debug\Hello.Model.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.Model\obj\Debug\Hello.Model.pdb
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.Model\bin\Debug\Hello.Model.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.Model\bin\Debug\Hello.Model.pdb
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.Model\obj\Debug\Hello.Model.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.Model\obj\Debug\Hello.Model.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.Model\obj\Debug\Hello.Model.pdb

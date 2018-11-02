@@ -1,0 +1,36 @@
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.DAL\obj\Debug\Hello.DAL.csprojResolveAssemblyReference.cache
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Hello.DAL.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Hello.DAL.pdb
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Autofac.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Component.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Dapper.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Hello.IDAL.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Hello.Model.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\log4net.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\MySql.Data.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Component.pdb
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Hello.IDAL.pdb
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Hello.Model.pdb
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Autofac.xml
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Dapper.xml
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\log4net.xml
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.DAL\obj\Debug\Hello.DAL.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\Hello.DAL\obj\Debug\Hello.DAL.pdb
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Hello.DAL.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Hello.DAL.pdb
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Autofac.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Component.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Dapper.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Hello.IDAL.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Hello.Model.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\log4net.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\MySql.Data.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Component.pdb
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Hello.IDAL.pdb
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Hello.Model.pdb
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Autofac.xml
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\Dapper.xml
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.DAL\bin\Debug\log4net.xml
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.DAL\obj\Debug\Hello.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.DAL\obj\Debug\Hello.DAL.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\Hello.DAL\obj\Debug\Hello.DAL.pdb

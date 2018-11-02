@@ -1,0 +1,124 @@
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\obj\Debug\HelloWebAPI.csprojResolveAssemblyReference.cache
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\csc.exe
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\System.Collections.Immutable.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\System.Reflection.Metadata.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\vbc.exe
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\VBCSCompiler.exe
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\VBCSCompiler.exe.config
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\HelloWebAPI.dll.config
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\HelpDocument.xml
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\HelloWebAPI.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\HelloWebAPI.pdb
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\Autofac.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\Autofac.Integration.WebApi.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\Component.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\Hello.DAL.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\Hello.IDAL.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\Hello.Model.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\Microsoft.Web.Infrastructure.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\Newtonsoft.Json.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Net.Http.Formatting.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.Helpers.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.Http.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.Http.WebHost.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.Mvc.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.Razor.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.WebPages.Deployment.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.WebPages.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.WebPages.Razor.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\log4net.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\Dapper.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\MySql.Data.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\Component.pdb
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\Hello.DAL.pdb
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\Hello.IDAL.pdb
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\Hello.Model.pdb
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\Autofac.xml
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\Autofac.Integration.WebApi.xml
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Net.Http.Formatting.xml
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.Helpers.xml
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.Http.xml
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.Http.WebHost.xml
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.Mvc.xml
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.Razor.xml
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.WebPages.xml
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.WebPages.Deployment.xml
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.WebPages.Razor.xml
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\Newtonsoft.Json.xml
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\log4net.xml
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\Dapper.xml
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\zh-Hans\System.Web.Http.resources.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\obj\Debug\HelloWebAPI.dll
+E:\项目模板总结\WebAPI\HelloWebAPI\HelloWebAPI\obj\Debug\HelloWebAPI.pdb
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\csc.exe
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\vbc.exe
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\HelloWebAPI.dll.config
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\HelpDocument.xml
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\HelloWebAPI.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\HelloWebAPI.pdb
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\Autofac.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\Autofac.Integration.WebApi.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\Component.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\Hello.DAL.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\Hello.IDAL.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\Hello.Model.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.Http.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.Razor.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\log4net.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\Dapper.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\MySql.Data.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\Component.pdb
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\Hello.DAL.pdb
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\Hello.IDAL.pdb
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\Hello.Model.pdb
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\Autofac.xml
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\Autofac.Integration.WebApi.xml
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.Http.xml
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.Razor.xml
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\log4net.xml
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\Dapper.xml
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\zh-Hans\System.Web.Http.resources.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\obj\Debug\HelloWebAPI.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\obj\Debug\HelloWebAPI.dll
+C:\Users\Administrator\Documents\Tencent Files\286238501\FileRecv\WebAPI\HelloWebAPI\HelloWebAPI\obj\Debug\HelloWebAPI.pdb
