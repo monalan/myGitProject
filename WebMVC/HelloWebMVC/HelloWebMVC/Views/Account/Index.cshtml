@@ -1,0 +1,35 @@
+﻿@using HelloWebMVC.Models;
+@{
+    ViewBag.Title = "登录";
+    UserLogin mod = new UserLogin();
+}
+
+<link type="text/css" rel="stylesheet" href="~/CSS/myStyleSheet.css"/>
+<script type="text/javascript" src="~/JS/inlogin.js"></script>
+
+<form class="form-horizontal">
+    <div class="mycenter">
+        <div class="tdiv"></div>
+        <div class="mysign">
+            <div class="inputdiv">
+                <input type="text" class="logininput userico" id="UserName" name="UserName" placeholder="请输入账户" value="@mod.UserName">
+                <div id="errUserName" class="errstyle"></div>
+            </div>
+            <div class="inputdiv">
+                <input type="text" class="logininput pwdico pwdinput" id="UserPwd" name="UserPwd" placeholder="请输入密码" maxlength="15" value="@mod.UserPwd" style="ime-mode:disabled">
+                <img class="floatclick" src="~/images/u37.png" onclick="switchPwd2('UserPwd')" />
+                <div id="errUserPwd" class="errstyle"></div>
+            </div>
+            <div class="inputdiv">
+                <div class="mycheckdiv mycheckcontainer">
+                    <input type="checkbox" id="RememberPwd" name="RememberPwd" @mod.GetRemStr()>
+                    <label for="RememberPwd">自动登录</label>
+                    <a href="../Manage/ForgetPwd">忘记密码</a>
+                </div>
+            </div>
+            <div class="inputdiv">
+                <input type="button" class="btn loginbtn" onclick="Login()" value="登&nbsp;录">
+            </div>
+        </div>
+    </div>
+</form>

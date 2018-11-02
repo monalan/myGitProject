@@ -1,0 +1,127 @@
+﻿body {
+    background-color: #839BB7;
+    margin-top: 105px;
+}
+
+input,
+select,
+textarea {
+    max-width: 340px;
+}
+
+.mycenter {
+    background: url(../images/bg_login.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    height: 690px;
+    width: 1100px;
+    padding: 50px;
+    text-align: center;
+}
+
+.mysign {
+    text-align: center;
+}
+
+.floatclick {
+    position: absolute;
+    top: 10px;
+    left: 640px;
+    width: 30px;
+}
+
+.mycheckdiv {
+    width: 340px;
+    display: inline;
+    font-size: 16px;
+}
+
+    .mycheckdiv label {
+        color: #87a1c0;
+        margin-left: 8px;
+    }
+
+    .mycheckdiv a {
+        margin-left: 150px;
+        color: #708cff;
+    }
+
+.btn {
+    background-color: cornflowerblue;
+}
+
+.tdiv {
+    background: url(../images/logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 215px;
+    height: 60px;
+    margin: 100px auto 50px auto;
+}
+
+.popover {
+    width: auto;
+    max-width: 800px;
+}
+
+.p_footer {
+    text-align: center;
+    font-size: 12px;
+    color: #d9e4f0;
+}
+
+.inputdiv {
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.logininput {
+    border: 0;
+    border-bottom: 1px solid #c2d3e7;
+    background-color: transparent;
+    display: inline;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px 6px 30px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #7b8fa8;
+}
+
+.loginbtn {
+    width: 132px;
+    height: 46px;
+    background-color: #708cff;
+    border-radius: 23px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+input:-ms-input-placeholder {
+    color: #c2d3e7;
+    font-size: 16px;
+}
+
+input::-webkit-input-placeholder {
+    color: #c2d3e7;
+    font-size: 16px;
+}
+
+.userico {
+    background: url("../images/ic_login_user.png") no-repeat 0 center;
+}
+
+.pwdico {
+    background: url("../images/ic_login_password.png") no-repeat 0 center;
+}
+
+.errstyle {
+    font-size: 12px;
+    color: #f8344b;
+    position: absolute;
+    top: 16px;
+    left: 68%;
+}

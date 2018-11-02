@@ -1,0 +1,10 @@
+E:\项目模板总结\WebMVC\HelloWebMVC\Hello.IDAL\bin\Debug\Hello.IDAL.dll
+E:\项目模板总结\WebMVC\HelloWebMVC\Hello.IDAL\bin\Debug\Hello.IDAL.pdb
+E:\项目模板总结\WebMVC\HelloWebMVC\Hello.IDAL\bin\Debug\Component.dll
+E:\项目模板总结\WebMVC\HelloWebMVC\Hello.IDAL\bin\Debug\log4net.dll
+E:\项目模板总结\WebMVC\HelloWebMVC\Hello.IDAL\bin\Debug\Newtonsoft.Json.dll
+E:\项目模板总结\WebMVC\HelloWebMVC\Hello.IDAL\bin\Debug\Component.pdb
+E:\项目模板总结\WebMVC\HelloWebMVC\Hello.IDAL\bin\Debug\log4net.xml
+E:\项目模板总结\WebMVC\HelloWebMVC\Hello.IDAL\obj\Debug\Hello.IDAL.csprojResolveAssemblyReference.cache
+E:\项目模板总结\WebMVC\HelloWebMVC\Hello.IDAL\obj\Debug\Hello.IDAL.dll
+E:\项目模板总结\WebMVC\HelloWebMVC\Hello.IDAL\obj\Debug\Hello.IDAL.pdb

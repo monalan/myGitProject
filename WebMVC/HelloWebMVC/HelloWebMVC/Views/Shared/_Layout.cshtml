@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <title>@ViewBag.Title</title>
+    <link rel="shortcut icon" href="~/images/logo.ico">
+    <link type="text/css" rel="stylesheet" href="~/CSS/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/CSS/Site.css"/>
+    <script type="text/javascript" src="~/JS/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="~/JS/bootstrap.min.js"></script>
+    <!--[if lte IE 8]>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="~/JS/newStyleAlert.js"></script>
+    <script type="text/javascript" src="~/JS/common.js"></script>
+</head>
+<body id="mybody">
+    @RenderBody()
+    <footer>
+        <p class="p_footer">
+            <span>@Html.ActionLink("帮助", "HelpText", "Manage")</span>
+            <span style="margin-left:15px;margin-right:15px;">@Html.ActionLink("隐私", "PrivacyText", "Manage")</span>
+            <span>@Html.ActionLink("条款", "ClauseText", "Manage")</span>
+        </p>
+        <p class="p_footer">copyright &copy; @DateTime.Now.Year 道生医疗科技有限公司</p>
+    </footer>
+</body>
+</html>

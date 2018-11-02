@@ -1,0 +1,337 @@
+﻿body {
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+input[type=password] {
+    padding-right: 30px !important;
+}
+
+::-ms-clear, ::-ms-reveal {
+    display: none;
+}
+
+.errinput {
+    border: 1px solid #ff9494 !important;
+    background-color: #ffefef !important;
+}
+
+.clearpadding {
+    padding: 0;
+}
+
+.clearmargin {
+    margin: 0;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.p_footer {
+    text-align: center;
+    font-size: 12px;
+    color: #7b8fa8;
+}
+
+.modal-content {
+    width: 500px;
+    height: 260px;
+    border-radius: 18px;
+}
+
+div.myclose {
+    position: absolute;
+    top: 16px;
+    right: 18px;
+    background: url("~/images/btn_popup_delete_normal.png");
+    width: 16px;
+    height: 16px;
+}
+
+    div.myclose:hover,
+    div.myclose:focus {
+        background: url("~/images/btn_popup_delete_press.png");
+    }
+
+.modal-header {
+    padding: 0;
+    margin: 30px auto 40px auto;
+}
+
+.modal-title {
+    font-size: 22px;
+    color: #191924;
+}
+
+.modal-body {
+    padding: 0;
+    font-size: 18px;
+    color: #3a4262;
+    margin-bottom: 16px;
+    text-align: center;
+    height: 70px;
+}
+
+.modal-footer {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+button.cancel {
+    width: 120px;
+    height: 46px;
+    font-size: 18px;
+    color: #191924;
+    background-color: #ffffff;
+    border: 1px solid #e0e4f8;
+    border-radius: 6px;
+    margin-right: 70px;
+}
+
+    button.cancel:hover,
+    button.cancel:focus {
+        background-color: #eff4fa;
+    }
+
+button.ok {
+    width: 120px;
+    height: 46px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #6080ff;
+    border-radius: 6px;
+}
+
+    button.ok:hover,
+    button.ok:focus {
+        background-color: #3659e5;
+    }
+
+#mybody input:focus {
+    outline: none;
+}
+
+#mybody button:focus {
+    outline: none;
+}
+
+
+.mycheckcontainer {
+    position: relative;
+    padding: 0 0 0 25px;
+    margin-bottom: 17px;
+    margin-top: 0;
+}
+
+    /*
+将初始的checkbox的样式改变
+*/
+    .mycheckcontainer input[type="checkbox"] {
+        opacity: 0; /*将初始的checkbox隐藏起来*/
+        position: absolute;
+        cursor: pointer;
+        z-index: 2;
+        margin: -6px 0 0 0;
+        top: 50%;
+        left: 3px;
+    }
+    /*
+设计新的checkbox，位置
+*/
+    .mycheckcontainer label:before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        margin-top: -9px;
+        width: 21px;
+        height: 19px;
+        display: inline-block;
+        border-radius: 2px;
+        border: 1px solid #bbb;
+        background: #eef3f8;
+    }
+    /*
+点击初始的checkbox，将新的checkbox关联起来
+*/
+    .mycheckcontainer input[type="checkbox"]:checked + label:after {
+        position: absolute;
+        display: inline-block;
+        font-family: 'FontAwesome';
+        content: url("~/images/btn_select_box.png");
+        top: 50%;
+        left: 4px;
+        margin-top: -5px;
+        font-size: 11px;
+        line-height: 1;
+        width: 15px;
+        height: 16px;
+        color: #333;
+    }
+
+    .mycheckcontainer label {
+        cursor: pointer;
+        line-height: 1.2;
+        font-weight: normal; /*改变了rememberme的字体*/
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+/*自定义多选框--开始*/
+.myselectstyle {
+    width: 23.7%;
+    height: 46px;
+    position: relative;
+    display: inline-block;
+}
+
+    .myselectstyle > div:first-of-type {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        max-height: 500%;
+        border: 1px solid #e0e4f8;
+        border-radius: 6px;
+        border-top: 0;
+        overflow: auto;
+        z-index: 1;
+        padding-left: 3%;
+        background-color: #fff;
+    }
+
+        .myselectstyle > div:first-of-type > p {
+            margin: 3px 0 10px 0;
+            font-size: 16px;
+            color: #3a4262;
+            width: 94%;
+            padding: 0 10px 0 16px;
+            border: 1px solid #e0e4f8;
+            border-radius: 6px;
+            background-color: #eff4fa;
+            cursor: pointer;
+            position: relative;
+        }
+
+            .myselectstyle > div:first-of-type > p[isselected="1"]:before {
+                position: absolute;
+                content: "✔";
+                height: 16px;
+                width: 16px;
+                left: 2px;
+                top: 0;
+                font-size: 16px;
+                color: #3a4262;
+            }
+
+            .myselectstyle > div:first-of-type > p:hover {
+                box-shadow: 0 0 5px 0 rgba(96,128,255,0.5),0 0 20px 0 rgba(96,128,255,0.2);
+            }
+
+    .myselectstyle > div:nth-of-type(2) {
+        border: 2px solid #b1c1ff;
+        border-radius: 6px;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: auto;
+    }
+
+        .myselectstyle > div:nth-of-type(2) > span {
+            padding: 2px 10px 0 6px;
+            font-size: 16px;
+            color: #3a4262;
+            display: inline-block;
+            background-color: #eff4fa;
+            margin-left: 8px;
+            margin-top: 10px;
+            height: 28px;
+            border-radius: 4px;
+            position: relative;
+        }
+
+            .myselectstyle > div:nth-of-type(2) > span > span.clos {
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-size: 9px;
+                color: #3a4262;
+                width: 28px;
+                height: 28px;
+                cursor: pointer;
+                text-align: right;
+            }
+
+    .myselectstyle > div:nth-of-type(3) {
+        background: url("images/btn_dropdown_normal.png") no-repeat center center;
+        position: absolute;
+        right: 8px;
+        top: 0;
+        width: 30px;
+        height: 100%;
+        cursor: pointer;
+    }
+
+        .myselectstyle > div:nth-of-type(3):hover {
+            background: url("images/btn_dropdown_select.png") no-repeat center center;
+        }
+
+/*自定义多选框--结束*/
+
+/* Let's get this party started */
+
+div::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+
+div::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #c8d2dd;
+}
+
+/* Handle */
+
+div::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #919daa;
+    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+    div::-webkit-scrollbar-thumb:window-inactive {
+        background-color: #919daa;
+    }
+
+.backhome {
+    float: right;
+    font-size: 14px;
+    color: #919daa;
+    margin-right: 10px;
+    text-decoration: none;
+    margin-top: 29px;
+    cursor: pointer;
+}
+
+    .backhome::before {
+        content: url(~/images/ic_back_normal.png);
+        margin-right: 7px;
+    }
+
+    .backhome:hover {
+        color: #708cff;
+        text-decoration: none;
+    }
+
+        .backhome:hover::before {
+            content: url(~/images/ic_back_hover.png);
+        }
