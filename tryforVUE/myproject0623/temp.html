@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" charset="UTF-8">
+		<script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
+		<script type="text/javascript" src="JS/jquery-3.3.1.js"></script>
+	</head>	
+   <body>
+    <div id="mydiv">
+        <input v-model="message" placeholder="edit me" />
+        <p>Message is : {{message}}</p>
+
+
+        <input type="checkbox" id="jack" value="jack" v-model="checkedNames" />
+        <label for="jack">jack</label>
+        <input type="checkbox" id="john" value="john" v-model="checkedNames" />
+        <label for="john">john</label>
+        <input type="checkbox" id="mike" value="mike" v-model="checkedNames" />
+        <label for="mike">mike</label>
+        <p>checkedNames:  {{checkedNames}}</p>
+        <hr/>
+        
+        <template v-for="item in tocheckName">
+        	<input type="checkbox" v-bind:id="item" v-bind:value="item"  v-model="checkeditem">{{item}}        		
+        </template>
+        <p>checked:{{checkeditem}}</p>
+        <hr/>
+        
+        <table>
+        	<template v-for="user in users">
+        	<tr>
+        		<td><input type="checkbox" v-bind:id="user" v-bind:value="user" v-model="checkUser" />Name: {{user.name}} &nbsp;&nbsp;&nbsp; Idcard:{{user.idcard}}</td>
+        	</tr>
+        </template>
+        </table>
+        <p>Checked:{{checkUser}}</p>
+        <table>
+        	<template v-for="temp in checkUser">
+        		<tr>
+        			<td><p>Name: {{temp.name}} &nbsp;&nbsp;&nbsp; Idcard:{{temp.idcard}}</p></td>
+        		</tr>
+        	</template>
+        </table>
+    </div>
+
+    <script>
+        new Vue({
+            el: "#mydiv",
+            data: {
+                message: 123,
+                checkedNames: [],
+                tocheckName:["A","B","C","D"],
+                checkeditem:[],
+                users:[{name:'aa',idcard:'aa13524515645'},{name:'bb',idcard:'bb13524515645'},{name:'cc',idcard:'cc13524515645'},{name:'dd',idcard:'dd13524515645'},
+                {name:'ee',idcard:'ee13524515645'},{name:'ff',idcard:'ff13524515645'},{name:'gg',idcard:'gg13524515645'},{name:'hh',idcard:'hh13524515645'},{name:'ii',idcard:'ii13524515641245'},{name:'jj',idcard:'jj1352451564521213'}],
+                checkUser:[],    
+            }
+        })
+    </script>
+</body>
+
+</html>

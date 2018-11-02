@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Vue </title>
+		<script src="https://cdn.bootcss.com/vue/2.2.2/vue.min.js"></script>
+	</head>
+
+	<body>
+		<div class="app">
+			<p>{{ message }}</p>
+
+			<p>{{ adata }}</p>
+			<a :href="aurl" target="_blank">aaaa</a>
+			<input type="button" v-on:click="clickme" value="clickme" />
+			 <div v-bind:id="'list-' + ids">属性值</div>
+		</div>
+
+		<script>
+			new Vue({
+				el: '.app',
+				data: {
+					message: 'Hello 123213!',
+					adata: '00000000!',
+					bdata: '1111111111111',
+					aurl: 'https://www.baidu.com',
+					ids:111,
+					clickme: function(event) {
+						alert('123');
+					}
+				}
+			})
+		</script>
+	</body>
+
+</html>

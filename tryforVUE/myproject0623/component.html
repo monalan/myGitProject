@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" charset="UTF-8">
+		<script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
+		<script type="text/javascript" src="JS/jquery-3.3.1.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<userinfo  v-bind:accountname='user.name'  v-bind:level='user.level'></userinfo>
+			<input v-model.number='user.level' />
+			<hr/>
+			<editoruser v-bind:accountname='user.name'  v-bind:level='user.level' v-on:useredit='userenditor'></editoruser>			
+		</div>
+		<script>
+			const userInfoDefine = {
+				props:['accountname','level'],
+				template:"<div><h1>用户信息</h1><p>账号： {{accountname}} </p><br/><p>昵称：张三</p><br/><p>等级：{{level}}</p><br/></div>"
+			};
+			const editUserDefine={
+				props:['accountname','level'],
+				template:'<div><h1>编辑用户信息</h1><br/>账号 ：<input v-model="thisname"/><br/>等级 ：<input v-bind:value="level"/><br/><input type="button" v-on:click="submitinfo" value="提交"/></div>',
+				data: function(){
+						return{
+							thisname:this.accountname,
+						};
+				},
+				methods:{
+					submitinfo:function(){
+						var ret = {name:this.thisname,level:2};
+						this.$emit('useredit',ret)
+					}
+				}
+			}
+			new Vue({
+				el:'#app',
+				
+				data:{
+					
+					user:{name:'mona',level:2}
+				},
+				methods:{
+					userenditor:function(event){
+						this.user = event;
+					}
+				},
+				components:{
+					'userinfo':userInfoDefine,
+					'editoruser':editUserDefine
+				}
+			})
+		</script>
+	</body>
+</html>

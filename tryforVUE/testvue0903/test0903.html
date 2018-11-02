@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>表单输入绑定</title>
+		<script src="https://cdn.bootcss.com/vue/2.2.2/vue.min.js"></script>
+		<!--v-model.trim(过滤用户输入的首尾空白字符)
+		v-model.number(自动将用户的输入值转为数值型)
+		v-model.lazy(使用change事件进行同步)-->
+		<style type="text/css">
+			.tab-button {
+            padding: 6px 10px;
+  			border-top-left-radius: 3px;
+  			border-top-right-radius: 3px;
+  			border: 1px solid #ccc;
+  			cursor: pointer;
+  			background: #f0f0f0;
+  			margin-bottom: -1px;
+  			margin-right: -1px;
+			}
+		.tab-button:hover {
+  			background: #e0e0e0;
+			}
+		.tab-button.active {
+  			background: #e0e0e0;
+			}
+		.tab {
+  			border: 1px solid #ccc;
+  			padding: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container-01">
+			<div id='rich-1'>
+			<input type="checkbox" id="jack" value="Jack" v-model="checkedNames" />
+			<label for="Jack">Jack</label>
+			<input type="checkbox" id="john" value="john" v-model="checkedNames" />
+			<label for="john">john</label>
+			<input type="checkbox" id="Mike" value="Mike" v-model="checkedNames"/>
+			<label for="Mike">Mike</label>
+			<br/>
+			<span>Checked name:{{checkedNames}}</span>
+		</div>
+		<hr>
+		<div id="radio-1">
+			<input type="radio" id="one" value="one" v-model="picked">
+			<label for="one">one</label>
+			<input type="radio" id="two" value="two" v-model="picked" />
+			<label for="two">two</label>
+			<br/>
+			<span>picked:{{picked}}</span>
+		</div>
+		<hr>
+		<div id="select-1">
+			<select v-model="selected">
+				<option disabled value="">请选择</option>
+				<option>A</option>
+				<option>B</option>
+				<option>C</option>
+			</select>
+			<span>Selected:{{selected}}</span>
+			<br/>
+			<br/>
+			<br/>
+			<select v-model="selectedb">
+				<option v-for="option in options" v-bind:value="option.value">
+					{{option.text}}
+				</option>
+			</select>
+			<span>Selected:{{selectedb}}</span>			
+		</div>
+		<hr>
+		<!--组件component-->
+		<div id="component-1">
+			<button v-for="tab in tabs" v-bind:key="tab" v-bind:class="['tab-button',{active:currentTab===tab}]" v-on:click="currentTab=tab">
+				{{tab}}
+			</button>
+			<component v-bind:is="currentTabComponent" class="tab">
+			</component>
+		</div>
+		</div>
+		
+		<script type="text/javascript">
+//			全局注册（必须在根Vue实例（通过new Vue()）创建之前发生）
+			Vue.component('tab-home',{
+				template:'<div>Home component</div>'
+			})
+			Vue.component('tab-posts',{
+				template:'<div>Posts component</div>'
+			})
+			Vue.component('tab-archive',{
+				template:'<div>Archive component</div>'
+			})
+			new Vue({
+				el:"#container-01",
+				data:{
+					checkedNames:[],
+					picked:'',
+					selected:'',
+					selectedb:'A',
+					options:[
+					{text:'one',value:'A'},
+					{text:'two',value:'B'},
+					{text:'three',value:'C'}
+					],
+					currentTab:'Home',
+					tabs:['Home','Posts','Archive']
+				},
+				computed:{
+					currentTabComponent:function(){
+						return 'tab-'+this.currentTab.toLowerCase()
+					}
+				}
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    <script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
+		<script type="text/javascript" src="JS/jquery-3.3.1.js"></script>
+		<title>VUE第二天</title>
+		<style>
+			.aclass{
+				background-color: blueviolet;
+			}
+			.bclass{
+				background-color:greenyellow;
+			}
+			.cclass{
+				background-color:hotpink;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="app">
+			<input type="button" value="isA" v-on:click="isA=true" />
+			<input type="button" value="isB" v-on:click="isB=true" />
+			<input type="button" value="isC" v-on:click="isC=true" />	
+			<div style="width: 120px; height: 200px;;" v-bind:class="{aclass:isA,bclass:isB,cclass:isC}"></div>		
+		</div>		
+		<script>		
+			new Vue({
+				el:'#app',
+				data:{
+					isA:false,
+					isB:false,
+					isC:false
+				},
+				
+				watch:{
+					isA:function(val){
+						if(val ==true){
+							this.isB=false;
+							this.isC=false;
+						}
+					},
+					isB:function(val){
+						if(val ==true){
+							this.isA=false;
+							this.isC=false;
+						}
+					},
+					isC:function(val){
+						if(val==true){
+							this.isA=false;
+							this.isB=false;
+						}
+					}
+				}
+			})
+			
+		</script>
+	</body>
+</html>

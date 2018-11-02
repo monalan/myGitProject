@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    <script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
+		<script type="text/javascript" src="JS/jquery-3.3.1.js"></script>
+		<title>VUE第二天</title>
+	</head>
+	<body>
+		<div id="app">
+			<div v-if="type==='A' || Math.random()>0.5">
+				A
+			</div>
+			<div v-else-if="type==='B' || param===5">
+				B
+			</div>
+			<div v-else-if="type==='C'">
+				C
+			</div>
+			<div v-else>
+				Not A/B/C
+			</div>
+			<ol>
+			   <li v-for="item in datas">{{item.id}} AND {{item.name}}</li>
+			</ol>
+			<ol>
+            <li v-for="(value,key,index) in properties" v-if="index>1">{{key}}: {{value}}: {{index}}</li>
+			</ol>
+			<p>计算前：{{message}}</p>
+			<p>计算后：{{reversedMessaage}}</p>
+			<p>姓{{firstName}}</p>
+			<p>名{{lastName}}</p>
+			<p>姓名{{fullName}}</p>
+			<input type="text" v-model="firstName" />
+			<input type="text" v-model="lastName" />
+			<p>参数a:{{parama}}</p>
+			<p>参数b:{{paramb}}</p>
+			<p>输出：{{Say}}</p>
+			<input type="text" v-model="parama" />
+			<input type="text" v-model="paramb" />
+			<input type="button" value="tosay" v-on:click="hi+=1" />
+			<p> Hi{{hi}}</p>		
+		</div>		
+		<script>		
+			new Vue({
+				el:'#app',
+				data:{
+					type:'C',
+					param:2+3,
+					datas:[
+					{id:1,name:"aaa"},
+					{id:2,name:"bbb"},
+					{id:3,name:"ccc"},
+					{id:4,name:"ddd"}
+					], 
+					properties:{
+						a:"AA",
+						b:"BB",
+						c:3,
+						d:[{"id":4},{"id":5}]
+					},
+					message:"q we trt tyt fun",
+					reversedMessaage:"1",
+					firstName:'Foo',
+					lastName:'Bar',
+					fullName:'Foo Bar',
+					parama:'hello',
+					paramb:'world',
+					Sayhello:'hello world',
+					hi:0,
+				},
+				computed:{
+					reversedMessaage:function(){
+						return this.message.split(' ').reverse().join(';');
+					}
+				},
+				watch:{
+					 firstName:function(val){
+					 	this.fullName = val+' '+this.lastName;
+					 },
+					 lastName:function(val){
+					 	this.fullName = this.firstName+' '+val
+					 }
+				},
+				computed:{
+					Say:{
+						get:function(){
+							return this.parama+this.paramb;
+						},
+						set:function(newval){
+							this.parama = newval;
+							this.paramb = "hi hi "+newval;
+							return this.parama+this.paramb;
+						}
+					}
+				}
+			})
+			
+		</script>
+	</body>
+</html>
